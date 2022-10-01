@@ -145,7 +145,7 @@ class Game extends React.Component {
 
 function getPosition(i, row, col){
   const xPos = i%col;
-  const yPos = parseInt(i/row);
+  const yPos = parseInt(i/col);
 
   return [xPos, yPos];
 }
